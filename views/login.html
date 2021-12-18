@@ -60,20 +60,22 @@
     <header>
         <div class="top-header">
             <div class="logo-buscador">
-                <div class="logo">                
+                <div class="logo">      <!--Con un clic al logo me redirige al home-->             
                     <a href="/home"><img src="/img/logo-mercado-liebre.svg" alt="logo-mercado-liebre"></a><!---Logo-->
                 </div>
                 <div class="buscador">
-                    <div class="input"><p>productos, marcas y más</p> </div>    
-                    <div class="submit"><i class="fas fa-search"></i></div>
+                    <form action="/home.html" method="get" class="form">
+                        <div class="input"><p>productos, marcas y más</p> </div>    
+                        <div class="submit"><i class="fas fa-search"></i></div>
+                    </form>
                 </div>
             </div>
             <div class="parrafo">
                 <p><i class="fas fa-hand-holding-usd"></i>Compra en coutas y sin tarjeta de crédito</p>
             </div>          
         </div>
-        <nav class="main-nav">
-            <nav class="nav1"><!---Inicio barra de navegacíon-->
+        <nav class="main-nav"><!---Inicio barra de navegacíon-->
+            <nav class="nav1">
                 <ul class="list1"><!---Menu 1-->
                     <li><a href="#">Ofertas</a></li>
                     <li><a href="#">Tiendas oficiales</a></li>

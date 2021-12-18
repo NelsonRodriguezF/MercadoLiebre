@@ -86,22 +86,24 @@ header{
     width: 50%;
     padding: 5px;
     margin: 2px;
-    display: flex;
-    justify-content: space-between;
     border-radius: 3px;
     background-color: var(--blanco);
 }
-.top-header .input p{
+.form{
+    padding: 1px 3px;
     white-space: nowrap;
     overflow: hidden;
+    display: flex;
+    justify-content: space-between;
 }
 header .input{
     width: 90%;
     color: var(--gris_oscuro);
     padding: 8px;
+    overflow: hidden;
 }
 header .submit {
-    width: 10%;
+    width: 12%;
     margin: auto;
     padding: 3px;
     border-left: solid 1px rgb(100, 100, 100);
