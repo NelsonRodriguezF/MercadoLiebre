@@ -220,7 +220,7 @@ footer .icon{
     font-size: 2em;
     margin: 10px;
     color: blue;
-    transition-duration: 400ms;
+    transition-duration: 410ms;
 }
 footer .icon:hover{
     color: #39b54a;
